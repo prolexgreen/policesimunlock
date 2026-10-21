@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="45">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>339</ID>
+      <Description>"Activate"</Description>
+      <Options moHideChildren="1"/>
+      <Color>00FF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+define(uworld,Boston-Win64-Shipping.exe+63FDA28)
+registersymbol(uworld)
+[DISABLE]
+unregistersymbol(uworld)
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>360</ID>
+          <Description>"Before Shift Start Stats"</Description>
+          <Options moHideChildren="1"/>
+          <Color>FFFF80</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>0</ID>
+              <Description>"Start Conduct Points"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>30</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1</ID>
+              <Description>"Min Allowed Conduct Points Before Getting Fired"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>34</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2</ID>
+              <Description>"Single Player Score Bonus Multiplier"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>38</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3</ID>
+              <Description>"Waiting For Players Duration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>3C</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>4</ID>
+              <Description>"Waiting For Players To End Shift Duration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>40</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>5</ID>
+              <Description>"In Game Shift Duration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>4C</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>6</ID>
+              <Description>"Default Real Time Foot Patrol Shift Duration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>50</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>7</ID>
+              <Description>"Default Real Time Car Patrol Shift Duration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>54</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"Default Real Time Highway Patrol Shift Duration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>58</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>9</ID>
+              <Description>"Maximum Shift Per Week"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>74</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>10</ID>
+              <Description>"Maximum Skipped Days Per Week"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>78</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>11</ID>
+              <Description>"Maximum Number Of Avilable Shifts"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>D0</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12</ID>
+              <Description>"Maximum Score Change For High Crime Neighborhoods"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>D8</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>13</ID>
+              <Description>"High Crime Neighborhood Base Change"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>E0</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>14</ID>
+              <Description>"High Crime Neighborhood Accumulation Chance"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>E4</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>15</ID>
+              <Description>"New Neighborhood High Crime Chance"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>E8</Offset>
+                <Offset>3C0</Offset>
+                <Offset>790</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"Player Physics"</Description>
+          <Options moHideChildren="1"/>
+          <Color>FFFF80</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>17</ID>
+              <Description>"Walk Speed"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>34</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18</ID>
+              <Description>"Sprint Speed"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>38</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19</ID>
+              <Description>"Max Acceleration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>3C</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>21</ID>
+              <Description>"Hold Shift To Sprint"</Description>
+              <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Enable
+1:Disable
+</DropDownList>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Byte</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>44</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>22</ID>
+              <Description>"Automatically Stand Up At Start Of Shift"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Byte</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>4C</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>23</ID>
+              <Description>"Hit Impulse Multiplier"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>54</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>24</ID>
+              <Description>"Min Critical Player Vehicle Velocity"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>58</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>25</ID>
+              <Description>"Min Critical NPV Velocity"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>5C</Offset>
+                <Offset>728</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>28</ID>
+              <Description>"Gravity Scale"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>150</Offset>
+                <Offset>288</Offset>
+                <Offset>2A0</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>30</ID>
+              <Description>"Max Acceleration"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>1A0</Offset>
+                <Offset>288</Offset>
+                <Offset>2A0</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>31</ID>
+              <Description>"Breaking Friction (Stop Faster)"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Float</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>1AC</Offset>
+                <Offset>288</Offset>
+                <Offset>2A0</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>27</ID>
+              <Description>"Enable Flashlight"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <Color>808000</Color>
+              <VariableType>Byte</VariableType>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>A59</Offset>
+                <Offset>2A0</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>338</ID>
+          <Description>"Unlimited Jumps"</Description>
+          <Options moAlwaysHideChildren="1"/>
+          <Color>FFFF80</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+if syntaxcheck then return end
+
+getHotkeyHandlerThread().state = 'htsActive'
+
+if not MyRec then MyRec = {} end
+local base = getAddress("[[[[[[uworld]+180]+38]+0]+30]+2A0]")
+if not base then return end
+local addr1 = base + 0x344
+local addr2 = base + 0x348
+
+local base2 = getAddress("[[[[[[[uworld]+180]+38]+0]+30]+2A0]+288]")
+if not base2 then return end
+local addr3 = base2 + 0x1C4
+local addr4 = base2 + 0x158
+
+MyRec.addr1 = addr1
+MyRec.addr2 = addr2
+MyRec.addr3 = addr3
+MyRec.addr4 = addr4
+
+MyRec.orig1 = readInteger(addr1)
+MyRec.orig2 = readInteger(addr2)
+MyRec.orig3 = readFloat(addr3)
+MyRec.orig4 = readFloat(addr4)
+
+writeInteger(addr1, 2)
+writeInteger(addr2, 0)
+writeFloat(addr3, 9999)
+writeFloat(addr4, 750)
+
+MyRec.freezeTimer = createTimer(nil, false)
+MyRec.freezeTimer.Interval = 50
+MyRec.freezeTimer.OnTimer = function(t)
+  writeInteger(addr1, 2)
+  writeInteger(addr2, 0)
+  writeFloat(addr3, 9999)
+  writeFloat(addr4, 750)
+end
+
+MyRec.freezeTimer.Enabled = true
+
+{$asm}
+
+[DISABLE]
+
+{$lua}
+
+getHotkeyHandlerThread().state = 'htsDisabled'
+
+if MyRec then
+  if MyRec.freezeTimer then
+    MyRec.freezeTimer:destroy()
+    MyRec.freezeTimer = nil
+  end
+  if MyRec.addr1 then writeInteger(MyRec.addr1, MyRec.orig1) end
+  if MyRec.addr2 then writeInteger(MyRec.addr2, MyRec.orig2) end
+  if MyRec.addr3 then writeFloat(MyRec.addr3, MyRec.orig3) end
+  if MyRec.addr4 then writeFloat(MyRec.addr4, MyRec.orig4) end
+end
+
+{$asm}
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>337</ID>
+              <Description>"Pressed Jump*"</Description>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Binary</VariableType>
+              <BitStart>2</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>uworld</Address>
+              <Offsets>
+                <Offset>330</Offset>
+                <Offset>2A0</Offset>
+                <Offset>30</Offset>
+                <Offset>0</Offset>
+                <Offset>38</Offset>
+                <Offset>180</Offset>
+              </Offsets>
+              <Hotkeys>
+                <Hotkey OnlyWhileDown="1">
+                  <Action>Set Value</Action>
+                  <Keys>
+                    <Key>32</Key>
+                  </Keys>
+                  <Value>1</Value>
+                  <Description>Jump</Description>
+                  <ID>0</ID>
+                </Hotkey>
+              </Hotkeys>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>341</ID>
+          <Description>"Shift Time Speed"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FFFF80</Color>
+          <VariableType>Float</VariableType>
+          <Address>uworld</Address>
+          <Offsets>
+            <Offset>100</Offset>
+            <Offset>3F0</Offset>
+            <Offset>790</Offset>
+            <Offset>30</Offset>
+            <Offset>0</Offset>
+            <Offset>38</Offset>
+            <Offset>180</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>358</ID>
+          <Description>"Unlimited Ammo/Tools"</Description>
+          <Options moAlwaysHideChildren="1" moManualExpandCollapse="1"/>
+          <Color>F4F400</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048,"Boston-Win64-Shipping.exe"+A3BDC7)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem:
+nop 4
+
+originalcode:
+//addss xmm0,xmm2
+ret 
+
+exit:
+jmp returnhere
+
+"Boston-Win64-Shipping.exe"+A3BDC7:
+jmp newmem
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"Boston-Win64-Shipping.exe"+A3BDC7:
+db F3 0F 58 C2 C3
+//addss xmm0,xmm2
+//ret 
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>359</ID>
+              <Description>"Indivisual Tools/Ammo"</Description>
+              <Options moHideChildren="1"/>
+              <Color>CECE00</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>342</ID>
+                  <Description>"Number Of Handcuffs"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>48</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>354</ID>
+                  <Description>"Taser Gun Ammo"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>88</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>346</ID>
+                  <Description>"Road Flares"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>B8</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>347</ID>
+                  <Description>"Traffic Cones"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>F8</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>348</ID>
+                  <Description>"Traffic Barriers"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>118</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>349</ID>
+                  <Description>"Spike Strips"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>138</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>350</ID>
+                  <Description>"Gun Ammo"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>148</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>353</ID>
+                  <Description>"Fire Extinguishers Ammo"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>1D8</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>355</ID>
+                  <Description>"Secure Poles"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>1A8</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>356</ID>
+                  <Description>"Evidence Markers"</Description>
+                  <ShowAsSigned>0</ShowAsSigned>
+                  <Color>F9BC86</Color>
+                  <VariableType>Float</VariableType>
+                  <Address>uworld</Address>
+                  <Offsets>
+                    <Offset>D8</Offset>
+                    <Offset>898</Offset>
+                    <Offset>2A0</Offset>
+                    <Offset>30</Offset>
+                    <Offset>0</Offset>
+                    <Offset>38</Offset>
+                    <Offset>180</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <CheatCodes>
+    <CodeEntry>
+      <Description>Change of addss xmm0,xmm2</Description>
+      <AddressString>Boston-Win64-Shipping.exe+A3ABC7</AddressString>
+      <Before>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>00</Byte>
+        <Byte>85</Byte>
+        <Byte>D2</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>58</Byte>
+        <Byte>C2</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>00</Byte>
+        <Byte>48</Byte>
+        <Byte>8B</Byte>
+        <Byte>81</Byte>
+      </After>
+    </CodeEntry>
+    <CodeEntry>
+      <Description>Change of addss xmm0,xmm2</Description>
+      <AddressString>Boston-Win64-Shipping.exe+A3BDC7</AddressString>
+      <Before>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>59</Byte>
+        <Byte>C2</Byte>
+        <Byte>C3</Byte>
+      </Before>
+      <Actual>
+        <Byte>F3</Byte>
+        <Byte>0F</Byte>
+        <Byte>58</Byte>
+        <Byte>C2</Byte>
+      </Actual>
+      <After>
+        <Byte>C3</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+        <Byte>CC</Byte>
+      </After>
+    </CodeEntry>
+  </CheatCodes>
+  <UserdefinedSymbols/>
+</CheatTable>
